@@ -10,6 +10,7 @@ h2{
   font-size: 48px;
   color: #3a3a3a;
   font-weight: 400;
+  margin-bottom: 0;
 }
 h3{
   font-size: 24px;
@@ -27,6 +28,12 @@ h4{
   font-weight: 400;
   color: #3a3a3a;
 }
+h5{
+  margin: 0;
+  color: #fff;
+  font-family: $font2;
+  font-size: 24px;
+}
 .subject{
   text-decoration: none;
   color: #fff;
@@ -35,6 +42,11 @@ h4{
   font-size: 12px;
   background-color: $rouge;
   font-weight: 500;
-  padding: 5px 5px;
+  padding: 7px;
   letter-spacing: 2px;
+}
+.date{
+  font-size: 14px;
+  font-style: italic;
+  color: #9f9f9f;
 }
