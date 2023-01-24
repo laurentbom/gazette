@@ -1,0 +1,14 @@
+.btn{
+  font-family: $font2;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px;
+  &:hover{
+    color: $rouge;
+    border: 1px solid $rouge;
+  }
+}

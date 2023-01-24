@@ -1,0 +1,38 @@
+// Position logo et barre grise
+.header{
+  &__img{
+    height: 160px;
+    display: flex;
+    align-items: center;
+  }
+  &__mid{
+    height: 1px;
+    width: 100%;
+    background-color: #21252980;
+    }
+}
+// Barre de navigation
+.header__main_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
+  padding: 0 15px;
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  i{
+    font-size: 20px;
+  }
+  &__liens a{
+      font-size: 16px;
+      font-weight: 500;
+      padding: 8px;
+      transition: .3s all ease-in-out;
+      &:hover{
+        color: $rouge;
+      }
+  }
+}

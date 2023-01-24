@@ -6,12 +6,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Gazette</title>
     <link rel="stylesheet" href="css/styles.min.css">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/e6327d8d43.css" crossorigin="anonymous">
-    
 </head>
 
 <body>
-    
+    <!-- Header -->
+    <header class="header">
+        <!-- Logo -->
+        <div class="header__img wrapper">
+            <a href=""><img src="img/core-img/logo.png" alt="logo"></a>
+        </div>
+        <!-- Barre milieu -->
+        <div class="header__mid"></div>
+        <!-- Barre de navigation -->
+        <nav class="header__main_nav wrapper">
+            <div class="header__main_nav__liens">
+                <a href="#">today</a>
+                <a href="#">politics</a>
+                <a href="#">lifestyle</a>
+                <a href="#">travel</a>
+                <a href="#">health</a>
+                <a href="#">entertainment</a>
+                <a href="#">sport</a>
+            </div>
+            <a href="#" class="header__main_nav__search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </nav>
+    </header>
+    <!-- Swiper principale -->
+    <section class="main_swiper">
+        <div class="main_swiper__img">
+            <img src="img/bg-img/1.jpg" alt="swip1">
+            <div>
+                <a href="#" class="subject">Crypto</a> <br>
+                <a href="#">Crypto world goes mad</a> <br>
+                <a href="#">March 29, 2018</a>
+            </div>
+        </div>
+        <div class="main_swiper__img">
+            <img src="img/bg-img/2.jpg" alt="swip2">
+            <div>
+                <a href="#" class="subject">live</a> <br>
+                <a href="#">The latest news live</a> <br>
+                <a href="#">March 29, 2018</a>
+            </div>
+        </div>
+        <div class="main_swiper__img">
+            <img src="img/bg-img/3.jpg" alt="swip3">
+            <div>
+                <a href="#" class="subject">politics</a> <br>
+                <a href="#">Financial advices</a> <br>
+                <a href="#">March 29, 2018</a>
+            </div>
+        </div>
+    </section>
+    <!-- Section main -->
+    <section class="main wrapper">
+        <!-- Colonne une -->
+        <div class="main__col1">
+            <div class="main__col1__article">
+                <a href="#" class="subject">politics</a>
+                <h2>What's behind the world obsession with gems?</h2>
+                <p class="date">March 29, 2016</p>
+                <img src="img/blog-img/1.jpg" alt="blog1">
+                <p class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere. Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend.
+                </p>
+                <nav>
+                    <a href="#" class="btn">
+                        continue reading  <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <div>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </nav>
+            </div>
+            <!-- Section most popular -->
+            <div class="main__col1__most_pop">
+                <h3>today's most popular</h3>
+                <div class="main__col1__most_pop__content">
+                    <div class="most1__img">
+                        <img src="img/blog-img/2.jpg" alt="most1">
+                    </div>
+                    <div class="most__txt">
+                        <a href="#" class="subject">news</a> <br>
+                        <a href="#">$250-million mansion is most expensive</a> <br>
+                        <span class="most__date">March 29, 2016</span> <br>
+                        <a href="#">3 comments</a> <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere.</p>
+                    </div>
+                    <div class="most2__img">
+                        <img src="img/blog-img/3.jpg" alt="most2">
+                    </div>
+                    <div class="most__txt">
+                        <a href="#" class="subject">life</a> <br>
+                        <a href="#">Homeless man steals $350,000</a> <br>
+                        <span class="most__date">March 29, 2016</span> <br>
+                        <a href="#">3 comments</a> <br>
+                        <p>Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Colonne 2 -->
+        <div class="main__col2">
+            <!-- Partie Breaking News -->
+            <div class="main__col2__breaking">
+                <h4>breaking news</h4>
+                <div class="main__col2__breaking__content">
+                    <!-- Content 1 -->
+                    <article>
+                        <img src="img/blog-img/bn-1.jpg" alt="break1">
+                        <div>
+                            <a href="#" class="subject">breaking news</a>
+                        </div>
+                        <p>China leads new global skyscraper record</p>
+                    </article>
+                    <!-- Content 2 -->
+                    <article>
+                        <img src="img/blog-img/bn-2.jpg" alt="break1">
+                        <div>
+                            <a href="#" class="subject">breaking news</a>
+                        </div>
+                        <p>Can a zebra crossing change its stripes?</p>
+                    </article>
+                </div>
+            </div>
+            <!-- Partie don't miss -->
+            <div class="main__col2__dont_miss">
+                <h4>don't miss</h4>
+                <div class="main__col2__dont_miss__content">
+                    <!-- Content 1 -->
+                    <div><img src="img/blog-img/dm-1.jpg" alt="miss"></div>
+                    <div>
+                        <p>EU council reunites</p>
+                        <span>Nov 29, 2017</span>
+                    </div>
+                    <!-- Content 2 -->
+                    <div><img src="img/blog-img/dm-2.jpg" alt="miss"></div>
+                    <div>
+                        <p>A new way to travel the world</p>
+                        <span>March 29,2016</span>
+                    </div>
+                    <!-- Content 3 -->
+                    <div><img src="img/blog-img/dm-3.jpg" alt="miss"></div>
+                    <div>
+                        <p>Why choose a bank?</p>
+                        <span>March 29,2016</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Partie advertising -->
+            <div class="main__col2__avert">
+                <h4>advert</h4>
+                <p>your add here</p>
+            </div>
+            <!-- Partie subscribe -->
+            <div class="main__col2__subscribe">
+                <h4>subscribe</h4>
+                <input type="email" name="email" id="subs_email" placeholder="Your Email">
+                <a href="#" class="btn-red">subscribe</a>
+            </div>
+        </div>
+    </section>
+    <!-- Section second -->
+    <section class="second"></section>
+    <!-- Section third -->
+    <section class="third"></section>
+    <script src="https://kit.fontawesome.com/e6327d8d43.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
