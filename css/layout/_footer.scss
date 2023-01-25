@@ -26,7 +26,7 @@ footer{
 .footer_top{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  height: 520px;
+  // height: 520px;
   div{
     display: flex;
     flex-direction: column;
@@ -45,6 +45,7 @@ footer{
 }
 .footer_bottom{
   position: relative;
+  padding-top: 50px;
   p{
     color: #fff;
     font-size: 12px;
@@ -76,5 +77,16 @@ footer{
     position: fixed;
     bottom: 0;
     right: 60px;
+  }
+}
+//------------------------------//
+//---------Responsive-----------//
+//------------------------------//
+@media screen and (max-width:760px){
+  footer{
+    height: 1400px;
+  }
+  .footer_top{
+    grid-template-columns: repeat(2, 1fr);
   }
 }

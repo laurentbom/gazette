@@ -21,15 +21,26 @@ window.addEventListener("scroll", function(){
   }
   lastScroll = scrolled;
 });
+// Nav responsive
+var menuResponsive = document.querySelector('.menu_responsive');
+var liensResponsive = document.querySelector('.header__main_nav__liens');
 
+menuResponsive.addEventListener('click', function(){
+  liensResponsive.classList.toggle("responsive");
+});
 // Swipers.js
 const swiper = new Swiper('.swiper1', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 1,
   grabCursor: true,
   speed: 1000,
+  breakpoints: {
+    760: {
+      slidesPerView: 3,
+    },
+  },
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
@@ -46,5 +57,9 @@ const swiper2 = new Swiper('.swiper.two', {
     el: ".swiper-pagination",
   },
   speed: 1000,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
 });
 

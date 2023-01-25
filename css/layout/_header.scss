@@ -18,6 +18,9 @@
   align-items: center;
   height: 54px;
   padding: 0 15px;
+  .menu_responsive{
+    display: none;
+  }
   a{
     text-decoration: none;
     text-transform: uppercase;
@@ -52,5 +55,51 @@
       &:hover{
         color: $rouge;
       }
+  }
+}
+//------------------------------//
+//---------Responsive-----------//
+//------------------------------//
+@media screen and (max-width:760px){
+  .header__main_nav input{
+    width: 200px;
+  }
+  .header__main_nav .menu_responsive{
+    display: block;
+    background-color: $rouge;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+    // display: none;
+    div{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 400;
+      padding-left: 15px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+  .header__main_nav{
+    &__liens{
+      background-color: rgb(196, 182, 182);
+      height: 360px;
+      width: 450px;
+      position: relative;
+      bottom: 210px;
+      opacity: 0;
+      left: -150px;
+      a{
+        display: block;
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+      &.responsive{
+        opacity: 1;
+        bottom: -207px;
+      }
+    }
   }
 }

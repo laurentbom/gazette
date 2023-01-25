@@ -1,0 +1,113 @@
+// Burger with span & hover effect
+.burger-menu {
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	overflow: visible;
+	position: relative;
+	z-index: 2;
+	// THE LINES
+	span,
+	span:before,
+	span:after {
+		background: rgb(255, 255, 255);
+		display: block;
+		height: 2px;
+		opacity: 1;
+		position: absolute;
+		transition: 0.3s ease-in-out;
+	}
+	span:before,
+	span:after {
+		content: '';
+	}
+	// TOP
+	span:before {
+		left: 0px;
+		top: -10px;
+		width: 27px;
+	}
+	// MIDDLE
+	span {
+		right: 0px;
+		top: 13px;
+		width: 27px;
+	}
+	// BOTTOM
+	span:after {
+		left: 0px;
+		top: 10px;
+		width: 27px;
+	}
+	// ROTATION ON CLICK
+	// &.close {
+	// 	// TOP
+	// 	span:before {
+	// 		top: 0px;
+	// 		transform: rotate(90deg);
+	// 		width: 27px;
+	// 	}
+	// 	// MIDDLE
+	// 	span {
+	// 		transform: rotate(-45deg);
+	// 		top: 13px;
+	// 		width: 27px;
+	// 	}
+	// 	// BOTTOM
+	// 	span:after {
+	// 		top: 0px;
+	// 		left: 0;
+	// 		transform: rotate(90deg);
+	// 		opacity: 0;
+	// 		width: 0;
+	// 	}
+	// }
+}
+// Burger Menu with position 
+// .burger-menu{
+//   position: relative;
+//   // Size
+//   height: 40px;
+//   width: 40px;
+//   // Border
+//   // border: 3px solid gray;
+//   box-shadow: inset -3px 0 0 gray, inset 0 -3px 0 gray, inset 3px 0 0 gray, inset 0 3px 0 gray;
+
+//   border-radius: 5px;
+//   cursor: pointer;
+//   div{
+//     position: absolute;
+//     left: 50%;
+//     top: 50%;
+//     transform: translate(-50%,-50%);
+//     // Bar
+//     background-color: gray;
+//     border-radius: 3px;
+//     height: 3px;
+//     width: 60%;
+//   }
+//   .barre-top{
+//     top: 30%;
+//   }
+//   .barre-bottom{
+//     top: 70%;
+//   }
+// }
+
+// Burger Menu with Flex (no border)
+// .burger-menu{
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: space-evenly;
+//   height: 35px;
+//   width: 40px;
+//   border-radius: 3px;
+//   cursor: pointer;
+//   div{
+//     height: 3px;
+//     width: 70%;
+//     border-radius: 3px;
+//     background-color: gray;
+//   }
+// }
