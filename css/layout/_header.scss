@@ -23,8 +23,26 @@
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.75);
   }
+  input{
+    width: 700px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    display: none;
+    &::placeholder{
+      font-size: 12px;
+      font-style: italic;
+      padding: 15px 10px;
+    }
+    &.visible{
+      display: block;
+    }
+  }
   i{
     font-size: 20px;
+  }
+  &__liens.hide{
+    display: none;
   }
   &__liens a{
       font-size: 16px;

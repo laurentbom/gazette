@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Gazette</title>
+    <link rel="icon" type="image/x-icon" href="img/core-img/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/styles.min.css">
 </head>
@@ -29,6 +30,7 @@
                 <a href="about-us.html">entertainment</a>
                 <a href="about-us.html">sport</a>
             </div>
+            <input type="search" placeholder="Input your keyword then press enter..." id="search" name="search" class="searchbar">
             <a href="#" class="header__main_nav__search"><i class="fa-solid fa-magnifying-glass"></i></a>
         </nav>
     </header>
@@ -330,8 +332,42 @@
     </section>
     <!-- Swiper secondaire -->
     <section class="sec_swiper">
-        <div class="swiper  two">
+        <div class="swiper  two wrapper">
             <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="sec_swiper__img">
+                            <img src="img/blog-img/bitcoin.jpg" alt="img">
+                        </div>
+                        <div class="sec_swiper__content">
+                            <a href="#" class="subject">editorial</a>
+                            <p class="sec_swiper__content__title">
+                                Move over, bitcoin. <br>Here comes litecoin
+                            </p>
+                            <span>March 29, 2016</span>
+                            <p class="sec_swiper__content__txt">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere. Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="wrapper">
+                        <div class="sec_swiper__img">
+                            <img src="img/blog-img/bitcoin.jpg" alt="img">
+                        </div>
+                        <div class="sec_swiper__content">
+                            <a href="#" class="subject">editorial</a>
+                            <p class="sec_swiper__content__title">
+                                Move over, bitcoin. <br>Here comes litecoin
+                            </p>
+                            <span>March 29, 2016</span>
+                            <p class="sec_swiper__content__txt">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere. Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis...
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="swiper-slide">
                     <div class="wrapper">
                         <div class="sec_swiper__img">
@@ -433,9 +469,10 @@
         </div>
         <div class="footer_bottom wrapper">
             <p>Copyright ©2023 All rights reserved | This template is made with  by <a href="">Colorlib</a></p>
-            <a href=""><i class="fa-solid fa-angle-up"></i></a>
+            <a href="#top" class="toTheTop"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </footer>
+    <!-- Scripts -->
     <script src="https://kit.fontawesome.com/e6327d8d43.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
