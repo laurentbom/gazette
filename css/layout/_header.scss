@@ -72,7 +72,6 @@
     justify-content: center;
     align-items: center;
     padding: 5px 25px;
-    // display: none;
     div{
       color: #fff;
       font-size: 20px;
@@ -91,6 +90,7 @@
       bottom: 210px;
       opacity: 0;
       left: -150px;
+      z-index: 10;
       a{
         display: block;
         padding-left: 20px;
