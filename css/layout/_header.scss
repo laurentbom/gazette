@@ -25,6 +25,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
   }
   input{
     width: 700px;
@@ -90,7 +91,7 @@
       bottom: 210px;
       opacity: 0;
       left: -150px;
-      z-index: 10;
+      z-index: 1000;
       a{
         display: block;
         padding-left: 20px;
