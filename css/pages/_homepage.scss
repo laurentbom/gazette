@@ -365,8 +365,6 @@
   .main{
     grid-template-columns: 1fr;
   }
-  // Barre nav
-  // Swiper
   // Main
   .main__col2__dont_miss__content{
     grid-template-columns: 1fr 7fr;
@@ -379,6 +377,11 @@
     height: 300px;
     width: 260px;
   }
+  .main__col1__most_pop__content{
+    grid-template-columns: 1fr;
+  }
+  
+
   // Section Sec
   .sec{
     grid-template-columns: 1fr;
