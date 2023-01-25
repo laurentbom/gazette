@@ -1,9 +1,13 @@
 // Position logo et barre grise
 .header{
   &__img{
-    height: 160px;
     display: flex;
     align-items: center;
+    padding: 50px 0px 50px 20px;
+    img{
+      height: 30px;
+      object-fit: cover;
+    }
   }
   &__mid{
     height: 1px;
@@ -62,6 +66,9 @@
 //---------Responsive-----------//
 //------------------------------//
 @media screen and (max-width:760px){
+  .header .header__img img{
+    height: 20px;
+  }
   .header__main_nav input{
     width: 200px;
   }
